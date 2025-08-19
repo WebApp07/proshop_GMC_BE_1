@@ -31,9 +31,10 @@ export default function RootLayout({
     >
       <html lang="en">
         <head>
+          {/* Balise de vérification Google */}
           <meta
             name="google-site-verification"
-            content="0vv64_mxh5oPcbqX9tc0xFgE-dleax-NIwQs03ehAY8"
+            content="xn60vRO8P-b7AnuJznUP9GVv7BeuJViTgF57b9AJ63w"
           />
         </head>
         <body className={`${inter.className} antialiased`}>
