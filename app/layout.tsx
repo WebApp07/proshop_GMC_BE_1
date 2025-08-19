@@ -29,13 +29,12 @@ export default function RootLayout({
       enableSystem
       disableTransitionOnChange
     >
-      <html lang="en" suppressHydrationWarning>
+      <html lang="en">
         <head>
           <meta
             name="google-site-verification"
             content="0vv64_mxh5oPcbqX9tc0xFgE-dleax-NIwQs03ehAY8"
           />
-          {/* You can add other meta tags here too */}
         </head>
         <body className={`${inter.className} antialiased`}>
           {children}
